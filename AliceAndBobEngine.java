@@ -16,7 +16,6 @@ public class AliceAndBobEngine
     //HINT: LOOK AT THE TESTS TO SEE WHAT IS EXPECTED FOR DIFFERENT CONDITIONS
     public String evaluateAliceOrBob(String input)
     {
-//      if(input == "Alice" || input == "Bob")
       if(input.equals("Alice") || input.equals("Bob"))
       {
         return String.format("Hello %1$s", input);
